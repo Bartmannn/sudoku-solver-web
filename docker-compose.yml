@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  prolog-solver:
+    build:
+      context: ./solver
+    container_name: sudoku_prolog_engine
+
+  golang-api:
+    build:
+      context: ./api/golang
+    container_name: sudoku_golang_gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - prolog-solver
+
+  react-frontend:
+    build:
+      context: ./frontend
+    container_name: sudoku_react_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - golang-api
