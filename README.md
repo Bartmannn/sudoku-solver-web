@@ -5,7 +5,7 @@
 https://github.com/user-attachments/assets/cf7c9e15-924d-4a8f-9ce6-833b52730e1a
 
 ## 📖 Motivation & Educational Context
-This project started as an exercise to improve upon a classic, purely Python-based backtracking Sudoku solver I wrote in the past. My goal was to completely rethink the architecture, focusing on performance, scalability, and modern industry standards. 
+This project started as an exercise to improve upon a classic, purely Python-based backtracking [Sudoku solver](https://github.com/Bartmannn/sudoku-solver) I wrote in the past. My goal was to completely rethink the architecture, focusing on performance, scalability, and modern industry standards. 
 
 To maximize the learning experience, this project was developed in a "pair-programming" setup with the Gemini Chat AI. Instead of using automated CLI generators, I used Gemini as an educational mentor to deep-dive into the raw implementation details of Docker networking, React state management, HTTP protocols, and API Gateway patterns. This approach allowed me to deeply understand every line of code and the architectural "why" behind it.
 
