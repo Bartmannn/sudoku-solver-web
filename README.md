@@ -2,6 +2,8 @@
 
 ## 🔗 Demo
 
+https://github.com/user-attachments/assets/cf7c9e15-924d-4a8f-9ce6-833b52730e1a
+
 ## 📖 Motivation & Educational Context
 This project started as an exercise to improve upon a classic, purely Python-based backtracking Sudoku solver I wrote in the past. My goal was to completely rethink the architecture, focusing on performance, scalability, and modern industry standards. 
 
