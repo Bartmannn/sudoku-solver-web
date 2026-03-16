@@ -10,14 +10,14 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Check Go Compilation
-      run: |
-        cd api/golang
-        go build -v ./...
+      - name: Check Go Compilation
+        run: |
+          cd api/golang
+          go build -v ./...
 
-    - name: Test Docker Compose Build
-      run: docker compose build
+      - name: Test Docker Compose Build
+        run: docker compose build
